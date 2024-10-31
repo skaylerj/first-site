@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: azure;
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1{
+    animation: color-change 3s infinite;
+}
+.pi{
+    animation:color-change 3s infinite;
+}
